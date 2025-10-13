@@ -1,0 +1,28 @@
+# Object files
+*.o
+*.obj
+
+# Compiled executables
+hello
+datatypes
+calculator
+temperature
+grades_menu
+loops_demo
+arrays_demo
+strings_demo
+functions_demo
+pointers_demo
+dynamic_memory
+
+# Editor backup files
+*~
+*.swp
+*.swo
+
+# Claude directory
+.claude/
+
+# OS files
+.DS_Store
+Thumbs.db
