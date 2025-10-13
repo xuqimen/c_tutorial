@@ -23,6 +23,10 @@ $(TARGET): $(OBJS)
 run: $(TARGET)
 	./$(TARGET)
 
+# Compile quiz.c
+quiz: quiz.c
+	$(CC) $(CFLAGS) quiz.c -o quiz
+
 # Clean up compiled files
 clean:
 	rm -f $(TARGET) $(OBJS)
