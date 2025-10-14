@@ -29,6 +29,6 @@ quiz: quiz.c
 
 # Clean up compiled files
 clean:
-	rm -f $(TARGET) $(OBJS)
+	rm -f $(TARGET) $(OBJS) quiz quiz.o
 
-.PHONY: all run clean
+.PHONY: all run clean quiz
