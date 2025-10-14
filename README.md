@@ -139,6 +139,11 @@ make
 - Make utility installed
 - Basic command-line knowledge
 
+**New to C development?** Check out our comprehensive [Setup Guide (SETUP.md)](SETUP.md) for detailed instructions on installing GCC and Make on:
+- **Windows** (MinGW-w64, WSL, or MSYS2)
+- **Linux/WSL** (Ubuntu, Fedora, Arch)
+- **macOS** (Xcode Command Line Tools or Homebrew)
+
 ### Building Programs
 
 Each directory contains a Makefile with the following targets:
